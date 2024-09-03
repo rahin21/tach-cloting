@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Forum } from "next/font/google";
 import "./globals.css";
-import NavBar from "@/components/NavBar";
+import NavBar from "@/components/Nav/NavBar";
 
 const inter = Inter({ subsets: ["latin"] });
 const forum = Forum({ subsets: ["latin"], weight: "400" });
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={forum.className}>
-        <div className="container mx-80">
+        <div className="container mx-auto">
           <NavBar />
           {children}
         </div>
