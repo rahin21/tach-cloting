@@ -2,13 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import mainLogo from "/public/0.webp";
-import { Input } from "../ui/input";
 import SearchInput from "./Search";
 import ShopCart from "./ShopCart";
 
 function NavBar() {
   return (
-    <nav>
+    <nav className="container mx-auto">
       <ul className="font-bold flex justify-between items-center gap-5 h-28 lg:mx-64">
         <div className="flex items-center gap-28">
           <li>
