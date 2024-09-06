@@ -4,6 +4,7 @@ import React from "react";
 import mainLogo from "/public/0.webp";
 import SearchInput from "./Search";
 import ShopCart from "./ShopCart";
+import ShopHoverMenu from "./ShopHoverMenu";
 
 function NavBar() {
   return (
@@ -14,7 +15,7 @@ function NavBar() {
             <Link href={"/"}>Home</Link>
           </li>
           <li>
-            <Link href={"/shop"}>Shop</Link>
+            <ShopHoverMenu/>
           </li>
         </div>
         <li>
