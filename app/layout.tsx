@@ -5,7 +5,6 @@ import "./globals.css";
 import NavBar from "@/components/Nav/NavBar";
 import Footer from "@/components/footer/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
 const forum = Forum({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
